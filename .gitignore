@@ -1,0 +1,13 @@
+
+node_modules
+dist
+.env
+
+playground.ts
+
+
+npm-debug.log*
+*.log
+
+
+.DS_Store
