@@ -16,6 +16,6 @@ export const AppDataSource = new DataSource({
   database: process.env.DB_DATABASE as string,
   synchronize: true,
   uuidExtension: "pgcrypto",
-  logging: false,
+  logging: true,
   entities: [User],
 });
