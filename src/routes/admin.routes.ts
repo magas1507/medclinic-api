@@ -1,5 +1,4 @@
 import { Request, Response, Router } from "express";
-
 import { UserRole } from "../entities/User";
 import { authMiddleware } from "../middlewares/authMiddleware";
 import { roleMiddleware } from "../middlewares/roleMiddleware";
