@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from "express";
-
 import { LoginDTO } from "../dtos/LoginDTO";
 import { AuthService } from "../services/AuthService";
 
